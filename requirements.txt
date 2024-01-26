@@ -1,0 +1,6 @@
+# requirements.txt
+
+langchain
+streamlit
+weaviate-haystack
+trulens-eval
