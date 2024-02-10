@@ -1,0 +1,3 @@
+dall-e/venv/lib/python3.8/site-packages/cv2/cv2.abi3.so filter=lfs diff=lfs merge=lfs -text
+dall-e/venv/lib/python3.8/site-packages/pyarrow/libarrow.so.1500 filter=lfs diff=lfs merge=lfs -text
+dall-e/venv/lib/python3.8/site-packages/llvmlite/binding/libllvmlite.so filter=lfs diff=lfs merge=lfs -text
