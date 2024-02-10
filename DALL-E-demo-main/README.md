@@ -1,8 +1,6 @@
 # DALL-E-DEMO
 
-## The demo can be seen in the following playlist -
 
-[![Playlist URL](input_images/thumbnail.png)](https://youtube.com/playlist?list=PLrdaCCBhU_hkEPpzhs5XtaUscJMB5h0cS)
 
 ## DALL-E API can perform the following as of now -
 
