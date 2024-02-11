@@ -1,26 +1,37 @@
-# DALL-E-DEMO
+# Deploying the App Locally
 
+## Step 1: Clone the Repository
 
+Clone the repository containing the Streamlit app to your local machine.
 
-## DALL-E API can perform the following as of now -
+```bash
+git clone https://github.com/feliciien/integrating-dall-e-2-api-with-trulens-elevating-image-generation-capabilities
+cd dall-e
+# Step 2: Create and Activate a Virtual Environment
 
-1. Image generation by text prompts
-2. Image variations by passing an image
-3. Image edits by text prompts and a mask image
+Create a virtual environment to isolate the dependencies for the app.
 
-## Make sure you create `.env` file to keep the openai API key safe
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8
+sudo apt update
+sudo apt install python3-virtualenv
+virtualenv -p python3.8 venv
+source venv/bin/activate
+sudo apt install python3.8-distutils
+## Step 3: Install Dependencies
 
-`.env` should contain the following -
+Install the required Python dependencies from the `requirements.txt` file.
 
-```ini
-OPENAI_API_KEY="YOUR_API_KEY"
-```
+```bash
+pip install -r requirements.txt
+## Step 4: Run the Streamlit App
 
-> NOTE: you can get your keys from [openai-api-keys](https://platform.openai.com/account/api-keys)
+Run the Streamlit app using the `streamlit` command.
 
-## Reference and important URLs-
+```bash
+streamlit run main.py
+## Step 5: Access the App
 
-1. [openai docs](https://platform.openai.com/docs/guides/images)
-2. [text to image generation](https://platform.openai.com/docs/guides/images/generations)
-3. [image variations](https://platform.openai.com/docs/guides/images/variations)
-4. [image edits](https://platform.openai.com/docs/guides/images/edits)
+Access the Streamlit app in your web browser by navigating to the URL provided by Streamlit, typically [http://localhost:8501](http://localhost:8501).
