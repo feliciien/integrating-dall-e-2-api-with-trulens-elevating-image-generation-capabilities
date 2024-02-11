@@ -12,8 +12,14 @@ cd dall-e
 Create a virtual environment to isolate the dependencies for the app.
 
 ```bash
-python3.8 -m venv venv
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8
+sudo apt update
+sudo apt install python3-virtualenv
+virtualenv -p python3.8 venv
 source venv/bin/activate
+sudo apt install python3.8-distutils
 ## Step 3: Install Dependencies
 
 Install the required Python dependencies from the `requirements.txt` file.
@@ -29,4 +35,3 @@ streamlit run main.py
 ## Step 5: Access the App
 
 Access the Streamlit app in your web browser by navigating to the URL provided by Streamlit, typically [http://localhost:8501](http://localhost:8501).
-
