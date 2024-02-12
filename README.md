@@ -20,6 +20,10 @@ sudo apt install python3-virtualenv
 virtualenv -p python3.8 venv
 source venv/bin/activate
 sudo apt install python3.8-distutils
+or with conda and truelens 
+conda create --name dall-e python=3.10
+conda activate dall-e
+
 ## Step 3: Install Dependencies
 
 Install the required Python dependencies from the `requirements.txt` file.
@@ -35,3 +39,4 @@ streamlit run main.py
 ## Step 5: Access the App
 
 Access the Streamlit app in your web browser by navigating to the URL provided by Streamlit, typically [http://localhost:8501](http://localhost:8501).
+
